@@ -1,0 +1,136 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3789148244,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.methodName()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to login with correct credential",
+        "description": "",
+        "id": "techfios-login-functionality-validation;user-should-be-able-to-login-with-correct-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 405325725,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1170404910,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the TechFios login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_the_TechFios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3777910824,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"username\" from database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_from_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3189357966,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"password\" from database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_from_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4811566551,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263221262,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@DbScenario1"
+          },
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios Login functionality validation",
+    "description": "",
+    "id": "techfios-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/LoginWithDataFromDB.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@DbFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
